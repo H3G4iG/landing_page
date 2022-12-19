@@ -90,6 +90,7 @@ ul {
 .quote-text {
   font-size: 36px;
   font-style: italic;
+  text-align: justify;
   color: var(--bg-dark);
 }
 
@@ -172,7 +173,6 @@ ul {
 
 /* Quote section */
 #quote-section {
-  display: flex;
   background-color: var(--secondary-color);
 }
 
@@ -184,20 +184,24 @@ ul {
 }
 
 /* registration section */
-#registration {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .blue-box {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
+  max-width: 100%;
   height: 80px;
   background-color: #3882f6;
   border-radius: 5px;
-  padding: 60px 20px;
-  margin: 90px 0;
+  padding: 70px 80px;
+  margin: 80px 0;
+}
+
+/* Footer */
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-dark);
+  padding: 30px 0;
 }
