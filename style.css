@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300&display=swap');
 
 :root {
   --primary-color: #f9faf8;
@@ -42,6 +42,10 @@ ul {
   margin: 5px 0;
 }
 
+.btn-border {
+  border: 2px white solid;
+}
+
 /* text */
 .primary-text {
   color: var(--primary-color);
@@ -78,6 +82,17 @@ ul {
   margin: 40px;
 }
 
+.author-text {
+  font-weight: bold;
+  text-align: right;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: var(--bg-dark);
+}
+
 
 /* Header */
 #main_header {
@@ -104,7 +119,7 @@ ul {
 
 .header-content {
   display: flex;
-  margin: 100px 0;
+  margin: 90px 0;
 }
 
 .header-main,
@@ -153,4 +168,36 @@ ul {
   border: #3882f6 3px solid;
   border-radius: 12px;
   margin-bottom: 7px;
+}
+
+/* Quote section */
+#quote-section {
+  display: flex;
+  background-color: var(--secondary-color);
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  padding: 70px;
+  margin: 90px 0;
+}
+
+/* registration section */
+#registration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding: 60px 20px;
+  margin: 90px 0;
 }
